@@ -123,6 +123,87 @@ depend:
 	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/build
 .PHONY : 04/fast
 
+ft_list_foreach.o: ft_list_foreach.c.o
+
+.PHONY : ft_list_foreach.o
+
+# target to build an object file
+ft_list_foreach.c.o:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_list_foreach.c.o
+.PHONY : ft_list_foreach.c.o
+
+ft_list_foreach.i: ft_list_foreach.c.i
+
+.PHONY : ft_list_foreach.i
+
+# target to preprocess a source file
+ft_list_foreach.c.i:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_list_foreach.c.i
+.PHONY : ft_list_foreach.c.i
+
+ft_list_foreach.s: ft_list_foreach.c.s
+
+.PHONY : ft_list_foreach.s
+
+# target to generate assembly for a file
+ft_list_foreach.c.s:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_list_foreach.c.s
+.PHONY : ft_list_foreach.c.s
+
+ft_split.o: ft_split.c.o
+
+.PHONY : ft_split.o
+
+# target to build an object file
+ft_split.c.o:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_split.c.o
+.PHONY : ft_split.c.o
+
+ft_split.i: ft_split.c.i
+
+.PHONY : ft_split.i
+
+# target to preprocess a source file
+ft_split.c.i:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_split.c.i
+.PHONY : ft_split.c.i
+
+ft_split.s: ft_split.c.s
+
+.PHONY : ft_split.s
+
+# target to generate assembly for a file
+ft_split.c.s:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_split.c.s
+.PHONY : ft_split.c.s
+
+sort_list.o: sort_list.c.o
+
+.PHONY : sort_list.o
+
+# target to build an object file
+sort_list.c.o:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/sort_list.c.o
+.PHONY : sort_list.c.o
+
+sort_list.i: sort_list.c.i
+
+.PHONY : sort_list.i
+
+# target to preprocess a source file
+sort_list.c.i:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/sort_list.c.i
+.PHONY : sort_list.c.i
+
+sort_list.s: sort_list.c.s
+
+.PHONY : sort_list.s
+
+# target to generate assembly for a file
+sort_list.c.s:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/sort_list.c.s
+.PHONY : sort_list.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 04"
+	@echo "... ft_list_foreach.o"
+	@echo "... ft_list_foreach.i"
+	@echo "... ft_list_foreach.s"
+	@echo "... ft_split.o"
+	@echo "... ft_split.i"
+	@echo "... ft_split.s"
+	@echo "... sort_list.o"
+	@echo "... sort_list.i"
+	@echo "... sort_list.s"
 .PHONY : help
 
 

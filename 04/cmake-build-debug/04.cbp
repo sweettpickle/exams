@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/cdoreah/Desktop/exams/04/ft_list.h">
+		<Unit filename="/Users/cdoreah/Desktop/exams/04/ft_list_foreach.c">
+			<Option target="04"/>
+		</Unit>
+		<Unit filename="/Users/cdoreah/Desktop/exams/04/ft_split.c">
+			<Option target="04"/>
+		</Unit>
+		<Unit filename="/Users/cdoreah/Desktop/exams/04/sort_list.c">
 			<Option target="04"/>
 		</Unit>
 		<Unit filename="/Users/cdoreah/Desktop/exams/04/CMakeLists.txt">
