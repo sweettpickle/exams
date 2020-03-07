@@ -123,59 +123,86 @@ depend:
 	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/build
 .PHONY : 04/fast
 
-ft_itoa.o: ft_itoa.c.o
+fprime.o: fprime.c.o
 
-.PHONY : ft_itoa.o
-
-# target to build an object file
-ft_itoa.c.o:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_itoa.c.o
-.PHONY : ft_itoa.c.o
-
-ft_itoa.i: ft_itoa.c.i
-
-.PHONY : ft_itoa.i
-
-# target to preprocess a source file
-ft_itoa.c.i:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_itoa.c.i
-.PHONY : ft_itoa.c.i
-
-ft_itoa.s: ft_itoa.c.s
-
-.PHONY : ft_itoa.s
-
-# target to generate assembly for a file
-ft_itoa.c.s:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_itoa.c.s
-.PHONY : ft_itoa.c.s
-
-rev_wstr.o: rev_wstr.c.o
-
-.PHONY : rev_wstr.o
+.PHONY : fprime.o
 
 # target to build an object file
-rev_wstr.c.o:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/rev_wstr.c.o
-.PHONY : rev_wstr.c.o
+fprime.c.o:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/fprime.c.o
+.PHONY : fprime.c.o
 
-rev_wstr.i: rev_wstr.c.i
+fprime.i: fprime.c.i
 
-.PHONY : rev_wstr.i
+.PHONY : fprime.i
 
 # target to preprocess a source file
-rev_wstr.c.i:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/rev_wstr.c.i
-.PHONY : rev_wstr.c.i
+fprime.c.i:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/fprime.c.i
+.PHONY : fprime.c.i
 
-rev_wstr.s: rev_wstr.c.s
+fprime.s: fprime.c.s
 
-.PHONY : rev_wstr.s
+.PHONY : fprime.s
 
 # target to generate assembly for a file
-rev_wstr.c.s:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/rev_wstr.c.s
-.PHONY : rev_wstr.c.s
+fprime.c.s:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/fprime.c.s
+.PHONY : fprime.c.s
+
+ft_itoa_base.o: ft_itoa_base.c.o
+
+.PHONY : ft_itoa_base.o
+
+# target to build an object file
+ft_itoa_base.c.o:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_itoa_base.c.o
+.PHONY : ft_itoa_base.c.o
+
+ft_itoa_base.i: ft_itoa_base.c.i
+
+.PHONY : ft_itoa_base.i
+
+# target to preprocess a source file
+ft_itoa_base.c.i:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_itoa_base.c.i
+.PHONY : ft_itoa_base.c.i
+
+ft_itoa_base.s: ft_itoa_base.c.s
+
+.PHONY : ft_itoa_base.s
+
+# target to generate assembly for a file
+ft_itoa_base.c.s:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_itoa_base.c.s
+.PHONY : ft_itoa_base.c.s
+
+ft_list_foreach.o: ft_list_foreach.c.o
+
+.PHONY : ft_list_foreach.o
+
+# target to build an object file
+ft_list_foreach.c.o:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_list_foreach.c.o
+.PHONY : ft_list_foreach.c.o
+
+ft_list_foreach.i: ft_list_foreach.c.i
+
+.PHONY : ft_list_foreach.i
+
+# target to preprocess a source file
+ft_list_foreach.c.i:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_list_foreach.c.i
+.PHONY : ft_list_foreach.c.i
+
+ft_list_foreach.s: ft_list_foreach.c.s
+
+.PHONY : ft_list_foreach.s
+
+# target to generate assembly for a file
+ft_list_foreach.c.s:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_list_foreach.c.s
+.PHONY : ft_list_foreach.c.s
 
 # Help Target
 help:
@@ -186,12 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 04"
 	@echo "... edit_cache"
-	@echo "... ft_itoa.o"
-	@echo "... ft_itoa.i"
-	@echo "... ft_itoa.s"
-	@echo "... rev_wstr.o"
-	@echo "... rev_wstr.i"
-	@echo "... rev_wstr.s"
+	@echo "... fprime.o"
+	@echo "... fprime.i"
+	@echo "... fprime.s"
+	@echo "... ft_itoa_base.o"
+	@echo "... ft_itoa_base.i"
+	@echo "... ft_itoa_base.s"
+	@echo "... ft_list_foreach.o"
+	@echo "... ft_list_foreach.i"
+	@echo "... ft_list_foreach.s"
 .PHONY : help
 
 

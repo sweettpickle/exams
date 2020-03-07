@@ -80,10 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/daria/Desktop/exams/04/ft_itoa.c">
+		<Unit filename="/home/daria/Desktop/exams/04/fprime.c">
 			<Option target="04"/>
 		</Unit>
-		<Unit filename="/home/daria/Desktop/exams/04/rev_wstr.c">
+		<Unit filename="/home/daria/Desktop/exams/04/ft_itoa_base.c">
+			<Option target="04"/>
+		</Unit>
+		<Unit filename="/home/daria/Desktop/exams/04/ft_list.h">
+			<Option target="04"/>
+		</Unit>
+		<Unit filename="/home/daria/Desktop/exams/04/ft_list_foreach.c">
 			<Option target="04"/>
 		</Unit>
 		<Unit filename="/home/daria/Desktop/exams/04/CMakeLists.txt">

@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
   "04"
   "04.pdb"
-  "CMakeFiles/04.dir/ft_itoa.c.o"
-  "CMakeFiles/04.dir/rev_wstr.c.o"
+  "CMakeFiles/04.dir/fprime.c.o"
+  "CMakeFiles/04.dir/ft_itoa_base.c.o"
+  "CMakeFiles/04.dir/ft_list_foreach.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

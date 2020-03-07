@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/04.dir/ft_itoa.c.o CMakeFiles/04.dir/rev_wstr.c.o  -o 04 
+/usr/bin/cc -g   CMakeFiles/04.dir/ft_list_foreach.c.o CMakeFiles/04.dir/fprime.c.o CMakeFiles/04.dir/ft_itoa_base.c.o  -o 04 

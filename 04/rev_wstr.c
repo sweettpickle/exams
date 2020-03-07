@@ -1,32 +1,47 @@
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
 
-int len(char *str)
+int len(const char *s)
 {
-    int i = 0;
-    while (str[i])
+    int i;
+    i = 0;
+
+    while (s[i])
         i++;
-    return (i);
+    return i;
 }
 
-
-
-int main(int argc, char **argv)
+void print_word(char *str, int l)
 {
-    if (argc ==2)
+    int check;
+
+    check = l;
+    while (str[l] != ' ' && str[l] != '\0')
+    {
+        write(1, &str[l], 1);
+        l++;
+    }
+
+    if ((str[l] == ' ' && check  != 0) || (str[l] == '\0' && check != 0))
+        write(1, " ", 1);
+}
+
+int main(int ac, char **av)
+{
+    if (ac == 2)
     {
         int l;
-        char *str;
-        int c;
-        int i = 0;
 
-        l = len(argv[1]);
-        str = (char *)malloc(sizeof(char) * l + 1);
-        if (str == NULL)
-            return (0);
-        while (argv[1][l] != ' ')
-            l--;
+        l = len(av[1]);
+        while (l--)
+        {
+            if (av[1][l] == ' ' && av[1][l + 1] != ' ')
+                print_word(av[1], l + 1);
+            if (l == 0)
+                print_word(av[1], l);
+        }
     }
     write(1, "\n", 1);
     return (0);
