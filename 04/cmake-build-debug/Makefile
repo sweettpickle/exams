@@ -150,60 +150,6 @@ fprime.c.s:
 	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/fprime.c.s
 .PHONY : fprime.c.s
 
-ft_itoa_base.o: ft_itoa_base.c.o
-
-.PHONY : ft_itoa_base.o
-
-# target to build an object file
-ft_itoa_base.c.o:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_itoa_base.c.o
-.PHONY : ft_itoa_base.c.o
-
-ft_itoa_base.i: ft_itoa_base.c.i
-
-.PHONY : ft_itoa_base.i
-
-# target to preprocess a source file
-ft_itoa_base.c.i:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_itoa_base.c.i
-.PHONY : ft_itoa_base.c.i
-
-ft_itoa_base.s: ft_itoa_base.c.s
-
-.PHONY : ft_itoa_base.s
-
-# target to generate assembly for a file
-ft_itoa_base.c.s:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_itoa_base.c.s
-.PHONY : ft_itoa_base.c.s
-
-ft_list_foreach.o: ft_list_foreach.c.o
-
-.PHONY : ft_list_foreach.o
-
-# target to build an object file
-ft_list_foreach.c.o:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_list_foreach.c.o
-.PHONY : ft_list_foreach.c.o
-
-ft_list_foreach.i: ft_list_foreach.c.i
-
-.PHONY : ft_list_foreach.i
-
-# target to preprocess a source file
-ft_list_foreach.c.i:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_list_foreach.c.i
-.PHONY : ft_list_foreach.c.i
-
-ft_list_foreach.s: ft_list_foreach.c.s
-
-.PHONY : ft_list_foreach.s
-
-# target to generate assembly for a file
-ft_list_foreach.c.s:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/ft_list_foreach.c.s
-.PHONY : ft_list_foreach.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +162,6 @@ help:
 	@echo "... fprime.o"
 	@echo "... fprime.i"
 	@echo "... fprime.s"
-	@echo "... ft_itoa_base.o"
-	@echo "... ft_itoa_base.i"
-	@echo "... ft_itoa_base.s"
-	@echo "... ft_list_foreach.o"
-	@echo "... ft_list_foreach.i"
-	@echo "... ft_list_foreach.s"
 .PHONY : help
 
 

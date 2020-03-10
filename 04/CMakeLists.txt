@@ -7,8 +7,13 @@ include_directories(.)
 
 add_executable(04
 #        ft_itoa.c
-        ft_list.h
-        ft_list_foreach.c fprime.c ft_itoa_base.c)
+#        ft_list.h
+#        ft_list_foreach.c
+        fprime.c)
+#        ft_itoa_base.c
+#        brainfuck.c
+#        brainfuck222.c
+#        ft_itoa_base.c)
 #        ft_list_remove_if.c
 #        ft_split.c
 #        rev_wstr.c

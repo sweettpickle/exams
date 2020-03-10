@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="04" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-1234 10" PASS_PARENT_ENVS_2="true" PROJECT_NAME="04" TARGET_NAME="04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="04" RUN_TARGET_NAME="04">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

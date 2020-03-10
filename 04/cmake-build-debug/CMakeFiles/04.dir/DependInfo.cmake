@@ -5,8 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/daria/Desktop/exams/04/fprime.c" "/home/daria/Desktop/exams/04/cmake-build-debug/CMakeFiles/04.dir/fprime.c.o"
-  "/home/daria/Desktop/exams/04/ft_itoa_base.c" "/home/daria/Desktop/exams/04/cmake-build-debug/CMakeFiles/04.dir/ft_itoa_base.c.o"
-  "/home/daria/Desktop/exams/04/ft_list_foreach.c" "/home/daria/Desktop/exams/04/cmake-build-debug/CMakeFiles/04.dir/ft_list_foreach.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

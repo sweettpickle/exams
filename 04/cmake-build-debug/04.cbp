@@ -83,15 +83,6 @@
 		<Unit filename="/home/daria/Desktop/exams/04/fprime.c">
 			<Option target="04"/>
 		</Unit>
-		<Unit filename="/home/daria/Desktop/exams/04/ft_itoa_base.c">
-			<Option target="04"/>
-		</Unit>
-		<Unit filename="/home/daria/Desktop/exams/04/ft_list.h">
-			<Option target="04"/>
-		</Unit>
-		<Unit filename="/home/daria/Desktop/exams/04/ft_list_foreach.c">
-			<Option target="04"/>
-		</Unit>
 		<Unit filename="/home/daria/Desktop/exams/04/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
