@@ -123,32 +123,59 @@ depend:
 	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/build
 .PHONY : 04/fast
 
-fprime.o: fprime.c.o
+flood_fill.o: flood_fill.c.o
 
-.PHONY : fprime.o
+.PHONY : flood_fill.o
 
 # target to build an object file
-fprime.c.o:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/fprime.c.o
-.PHONY : fprime.c.o
+flood_fill.c.o:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/flood_fill.c.o
+.PHONY : flood_fill.c.o
 
-fprime.i: fprime.c.i
+flood_fill.i: flood_fill.c.i
 
-.PHONY : fprime.i
+.PHONY : flood_fill.i
 
 # target to preprocess a source file
-fprime.c.i:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/fprime.c.i
-.PHONY : fprime.c.i
+flood_fill.c.i:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/flood_fill.c.i
+.PHONY : flood_fill.c.i
 
-fprime.s: fprime.c.s
+flood_fill.s: flood_fill.c.s
 
-.PHONY : fprime.s
+.PHONY : flood_fill.s
 
 # target to generate assembly for a file
-fprime.c.s:
-	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/fprime.c.s
-.PHONY : fprime.c.s
+flood_fill.c.s:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/flood_fill.c.s
+.PHONY : flood_fill.c.s
+
+test_main.o: test_main.c.o
+
+.PHONY : test_main.o
+
+# target to build an object file
+test_main.c.o:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/test_main.c.o
+.PHONY : test_main.c.o
+
+test_main.i: test_main.c.i
+
+.PHONY : test_main.i
+
+# target to preprocess a source file
+test_main.c.i:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/test_main.c.i
+.PHONY : test_main.c.i
+
+test_main.s: test_main.c.s
+
+.PHONY : test_main.s
+
+# target to generate assembly for a file
+test_main.c.s:
+	$(MAKE) -f CMakeFiles/04.dir/build.make CMakeFiles/04.dir/test_main.c.s
+.PHONY : test_main.c.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 04"
 	@echo "... edit_cache"
-	@echo "... fprime.o"
-	@echo "... fprime.i"
-	@echo "... fprime.s"
+	@echo "... flood_fill.o"
+	@echo "... flood_fill.i"
+	@echo "... flood_fill.s"
+	@echo "... test_main.o"
+	@echo "... test_main.i"
+	@echo "... test_main.s"
 .PHONY : help
 
 

@@ -9,7 +9,8 @@ add_executable(04
 #        ft_itoa.c
 #        ft_list.h
 #        ft_list_foreach.c
-        fprime.c)
+#        fprime.c
+        flood_fill.c test_main.c flood_fill.h t_point.h)
 #        ft_itoa_base.c
 #        brainfuck.c
 #        brainfuck222.c

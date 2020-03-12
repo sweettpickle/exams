@@ -80,7 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/daria/Desktop/exams/04/fprime.c">
+		<Unit filename="/home/daria/Desktop/exams/04/flood_fill.c">
+			<Option target="04"/>
+		</Unit>
+		<Unit filename="/home/daria/Desktop/exams/04/flood_fill.h">
+			<Option target="04"/>
+		</Unit>
+		<Unit filename="/home/daria/Desktop/exams/04/t_point.h">
+			<Option target="04"/>
+		</Unit>
+		<Unit filename="/home/daria/Desktop/exams/04/test_main.c">
 			<Option target="04"/>
 		</Unit>
 		<Unit filename="/home/daria/Desktop/exams/04/CMakeLists.txt">

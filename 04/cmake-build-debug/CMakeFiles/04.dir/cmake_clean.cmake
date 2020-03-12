@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
   "04"
   "04.pdb"
-  "CMakeFiles/04.dir/fprime.c.o"
+  "CMakeFiles/04.dir/flood_fill.c.o"
+  "CMakeFiles/04.dir/test_main.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

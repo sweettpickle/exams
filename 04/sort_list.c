@@ -4,15 +4,15 @@ t_list	*sort_list(t_list* lst, int (*cmp)(int, int))
 {
     t_list *i;
     t_list *j;
-    void *tmp;
+    int tmp;
 
-    i = *lst;
-    while (i)
+    i = lst;
+    while (i->next)
     {
         j = i->next;
         while (j)
         {
-            if (cmp(i->data, j->data) != 0)
+            if (cmp(i->data, j->data) == 0)
             {
                 tmp = i->data;
                 i->data = j->data;
@@ -22,4 +22,5 @@ t_list	*sort_list(t_list* lst, int (*cmp)(int, int))
         }
         i = i->next;
     }
+    return (lst);
 }

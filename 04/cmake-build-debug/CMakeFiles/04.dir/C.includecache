@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/daria/Desktop/exams/04/ft_itoa_base2.c
-stdio.h
--
-stdlib.h
--
-unistd.h
--
+/home/daria/Desktop/exams/04/flood_fill.c
+flood_fill.h
+/home/daria/Desktop/exams/04/flood_fill.h
+
+/home/daria/Desktop/exams/04/flood_fill.h
+t_point.h
+/home/daria/Desktop/exams/04/t_point.h
+
+/home/daria/Desktop/exams/04/t_point.h
 
